@@ -1,3 +1,44 @@
+# УСТАНОВКА
+#### 1. Клонируем проект
+```code
+git@github.com:maldybaev/shortify.git
+```
+
+#### 2. Копируем env.example и создаем .env
+```code
+cp .env.example .env
+```
+
+#### 3. Заходим в проект и устанавливаем зависимости
+```code
+composer install && php artisan key:generate
+```
+
+#### 4. Запускаем миграции
+```code
+php artisan migrate
+```
+
+#### 3. Запускаем проект
+```code
+php artisan serve
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
