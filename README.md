@@ -8,22 +8,27 @@
 git clone git@github.com:maldybaev/shortify.git
 ```
 
-#### 2. Копируем env.example и создаем .env Создаем БД и прописываем в .env
+#### 2. Открываем директорию shortify
+```code
+cd shortify
+```
+
+#### 3. Копируем env.example и создаем .env Создаем БД и прописываем в .env
 ```code
 cp .env.example .env
 ```
 
-#### 3. Заходим в проект и устанавливаем зависимости
+#### 4. Заходим в проект и устанавливаем зависимости
 ```code
 composer install && php artisan key:generate
 ```
 
-#### 4. Запускаем миграции
+#### 5. Запускаем миграции
 ```code
 php artisan migrate
 ```
 
-#### 3. Запускаем проект
+#### 6. Запускаем проект
 ```code
 php artisan serve
 ```
