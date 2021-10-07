@@ -5,7 +5,7 @@
 # УСТАНОВКА
 #### 1. Клонируем проект
 ```code
-git@github.com:maldybaev/shortify.git
+git clone git@github.com:maldybaev/shortify.git
 ```
 
 #### 2. Копируем env.example и создаем .env Создаем БД и прописываем в .env
