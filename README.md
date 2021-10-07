@@ -4,7 +4,7 @@
 git@github.com:maldybaev/shortify.git
 ```
 
-#### 2. Копируем env.example и создаем .env
+#### 2. Копируем env.example и создаем .env Создаем БД и прописываем в .env
 ```code
 cp .env.example .env
 ```
